@@ -113,7 +113,10 @@ class MetasploitModule < Msf::Exploit::Remote
           It bypasses authentication via sequential overlong password attempts in the same
           TCP session and executes a custom command retrieved from the datastore.
         },
-        'Author'         => [ 'Ivyson Lucas <ivysonlucas27@hotmail.com>' ],
+        'Author'         => [
+          'Ivyson Lucas <ivysonlucas27@hotmail.com>',
+          'Geraldo Lucas <geraldolucas10@gmail.com>'
+        ],
         'License'        => MSF_LICENSE,
         'References'     => [
           ['CVE',  '2026-123158'],
