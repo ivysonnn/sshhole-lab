@@ -1,5 +1,7 @@
 * **Authors:** Ivyson Lucas & Geraldo Lucas
 
+See in PT-BR [here](./README_pt-BR.md).
+
 # *SSHole Exploit
 
 (see this for a detailed look) [*SSHole](https://sshhole.com/)
@@ -258,3 +260,5 @@ chuck-msf exploit(linux/ssh/sshhole) > exploit
 If all goes right it will print `bob i love you`.
 
 The CMD option is any linux command you'd like.
+
+When Chuck authenticates he's locatted at `/home/alice`, have that in mind when using different commands.
