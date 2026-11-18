@@ -1,3 +1,5 @@
+* **Authors:** Ivyson Lucas & Geraldo Lucas
+
 # *SSHole Exploit
 
 (see this for a detailed look) [*SSHole](https://sshhole.com/)
