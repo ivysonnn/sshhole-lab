@@ -55,7 +55,7 @@ def topology():
     net.build()
     s1.start([])
     alice1.cmd("echo '10.200.0.1 alice' > /etc/hosts && /usr/sbin/sshd -D -e &")
-    alice1.cmd("echo 'bob i love you' > love_letter.txt")
+    alice1.cmd("echo 'bob i love you' > /love_letter.txt")
     makeTerm(chuck1, cmd="bash")
     info(" Running CLI\n")
     CLI(net)
@@ -63,7 +63,7 @@ def topology():
     net.stop()
 
 
-if name == "main":
+if __name__ == "__main__":
     setLogLevel("info")
     topology()
 
@@ -228,6 +228,7 @@ class MetasploitModule < Msf::Exploit::Remote
   end
 end
 ```
+Copy the script above, create a file as `sshhole.rb`, and paste it inside.
 
 ```
 chuck# nano sshhole.rb
